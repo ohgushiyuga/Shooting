@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+canvas {
+    background-color: #ffffff; /* 白背景 */
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #333;
+    pointer-events: none;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#instructions {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
